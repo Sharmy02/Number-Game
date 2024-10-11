@@ -20,9 +20,9 @@ def numbers():
         if left == right:
             count+=1 
             # print(count)
-        #     print (f"You have {count} correct.")
-        # else:
-        #     print ("This is incorrect.")
+            print (f"You have {count} correct.")
+        else:
+            print ("This is incorrect.")
     
     if count <=2:
         print(f"You have {count}. Do better!")
